@@ -20,6 +20,7 @@ jobs:
       - name: Mkdir tfsec
         run: mkdir tfsecres
 
+      ############## Version 1 ##############
       #- name: Run Tfsec
       #  uses: aquasecurity/tfsec-action@v1.0.0
       #  with:
@@ -27,11 +28,12 @@ jobs:
       #    soft_fail: true
       #    format: sarif
       #    additional_args: --out tfsecres/results.sarif --tfvars-file iac/terraform.tfvars
-
+      #
       #- name: Output tfsec findings
       #  run: cat tfsecres/results.sarif
-
+      #
       #- name: Upload Tfsec findings
       #  uses: github/codeql-action/upload-sarif@v2
       #  with: 
       #    sarif_file: tfsecres/results.sarif
+      ########################################
