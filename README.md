@@ -8,7 +8,8 @@ This is part of the course DevSecOps.
 
 ## Preparation
 
-  1. Fork this repository, and make sure to set the visibility to "Public".
+  1. Click on [**Use this template**](https://github.com/new?template_name=pa2588-devsecops-iac-security&template_owner=bth-dipt-teaching)
+     to create a new repository in your GitHub account (don't _fork_ it), and make sure to set the visibility to "Public".
   2. Go to "Settings" > "Secrets and variables" > "Actions"
   3. Create Repository Secrets `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`
 
